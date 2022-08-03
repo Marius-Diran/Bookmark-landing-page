@@ -108,10 +108,56 @@ body{
 
 .sub-main{
   width: 50%;
-  margin: 5vh auto;
+  margin: 15vh auto 5vh;
   text-align: center;
 }
 
 .sub-main h1{
   margin: 0 auto 3vh;
+  font-weight: bold;
+}
+
+.sub-main p{
+  width: 70%;
+  margin: 0 auto;
+  line-height: 150%;
+  color: hsl(229, 8%, 60%);
+}
+
+.tab{
+  display: flex;
+  margin: 5vh auto 0;
+}
+
+.mockup-tab{
+  width: 40%;
+  margin: 0 0 0 10vw;
+}
+
+.tab-img{
+  width: 100%;
+}
+
+.tab-bar{
+  background: hsl(231, 69%, 60%);
+  height: 50vh;
+  width: 100%;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  margin: -35vh 0 0 -10vw;
+}
+
+.writeup-tab{
+  width: 60%;
+}
+
+.writeup-tab h1{
+  font-weight: bold;
+  margin: 8vh 10vw 3vh;
+}
+
+.writeup-tab p{
+  width: 55%;
+  margin: 0 10vw 0;
+  line-height: 150%;
 }
