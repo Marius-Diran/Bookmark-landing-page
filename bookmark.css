@@ -161,3 +161,14 @@ body{
   margin: 0 10vw 0;
   line-height: 150%;
 }
+
+.tab-btn{
+  margin: 4vh 10vw;
+  height: 6vh;
+  width: 15%;
+  background: hsl(231, 69%, 60%);
+  border: none;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+}
