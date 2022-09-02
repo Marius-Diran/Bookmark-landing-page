@@ -124,9 +124,29 @@ body{
   color: hsl(229, 8%, 60%);
 }
 
-.tab{
+.mytabs{
   display: flex;
+  flex-wrap: wrap;
+}
+
+.tab{
   margin: 5vh auto 0;
+}
+
+.mytabs label:hover{
+  cursor: pointer;
+}
+
+.slide-1{
+  display: flex;
+}
+
+.slide-2{
+  display: flex;
+}
+
+.slide-3{
+  display: flex;
 }
 
 .mockup-tab{
@@ -171,4 +191,30 @@ body{
   border-radius: 5px;
   color: hsl(0, 0%, 100%);
   font-weight: bold;
+}
+
+.mover{
+  margin-left: 30vw;
+}
+
+.mytabs input[type="radio"]{
+  display: none;
+}
+
+.mytabs label{
+  padding: 1.5vh 1.5vw;
+}
+
+.mytabs .tab{
+  width: 100%;
+  order: 1;
+  display: none;
+}
+
+.mytabs input[type="radio"]:checked + label + .tab{
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label{
+  border-bottom: 1px solid red;
 }
