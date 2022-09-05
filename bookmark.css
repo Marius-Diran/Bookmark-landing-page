@@ -203,6 +203,7 @@ body{
 
 .mytabs label{
   padding: 1.5vh 1.5vw;
+  border-bottom: 1px solid hsl(229, 8%, 60%);
 }
 
 .mytabs .tab{
@@ -216,5 +217,22 @@ body{
 }
 
 .mytabs input[type="radio"]:checked + label{
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid red;
+}
+
+.sub-main2{
+  margin: 20vh 0 0;
+}
+
+.sub-main2 h1{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.sub-main2 p{
+  width: 36%;
+  text-align: center;
+  margin: 2vh auto 0;
+  line-height: 140%;
+  color: hsl(229, 8%, 60%);
 }
