@@ -237,6 +237,10 @@ body{
   color: hsl(229, 8%, 60%);
 }
 
+.holder-2_flex{
+  display: flex;
+}
+
 .dots{
   width: 100%;
 }
@@ -245,7 +249,7 @@ body{
   border-radius: 15px;
   box-shadow: 0 6px 10px 0.2px hsla(229, 79%, 78%, 0.524);
   width: 24%;
-  margin: 10vh 0 30vh 0;
+  margin: 10vh 0 30vh 10vw;
 }
 
 .flex-logo_1{
@@ -278,7 +282,7 @@ body{
   border-radius: 15px;
   box-shadow: 0 6px 10px 0.2px hsla(229, 79%, 78%, 0.524);
   width: 24%;
-  margin: 10vh 0 30vh 0;
+  margin: 20vh 0 10vw 3vw;
 }
 
 .flex-logo_2{
@@ -297,6 +301,39 @@ body{
 }
 
 .flex-box_2 button{
+  margin: 3vh 0 4vh 2.5vw;
+  height: 6vh;
+  width: 80%;
+  background: hsl(231, 69%, 60%);
+  border: none;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+}
+
+.flex-box_3{
+  border-radius: 15px;
+  box-shadow: 0 6px 10px 0.2px hsla(229, 79%, 78%, 0.524);
+  width: 24%;
+  margin: 28vh 0 10vh 3vw;
+}
+
+.flex-logo_3{
+  margin: 4vh 7vw;
+  width: 40%;
+}
+
+.flex-box_3 h3{
+  width: fit-content;
+  margin: 1vh auto 3vh;
+}
+
+.flex-box_3 p{
+  width: fit-content;
+  margin: 0 auto 3vh;
+}
+
+.flex-box_3 button{
   margin: 3vh 0 4vh 2.5vw;
   height: 6vh;
   width: 80%;
