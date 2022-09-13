@@ -217,7 +217,7 @@ body{
 }
 
 .mytabs input[type="radio"]:checked + label{
-  border-bottom: 2px solid red;
+  border-bottom: 3px solid red;
 }
 
 .sub-main2{
@@ -235,4 +235,74 @@ body{
   margin: 2vh auto 0;
   line-height: 140%;
   color: hsl(229, 8%, 60%);
+}
+
+.dots{
+  width: 100%;
+}
+
+.flex-box_1{
+  border-radius: 15px;
+  box-shadow: 0 6px 10px 0.2px hsla(229, 79%, 78%, 0.524);
+  width: 24%;
+  margin: 10vh 0 30vh 0;
+}
+
+.flex-logo_1{
+  margin: 4vh 7vw;
+  width: 40%;
+}
+
+.flex-box_1 h3{
+  width: fit-content;
+  margin: 1vh auto 3vh;
+}
+
+.flex-box_1 p{
+  width: fit-content;
+  margin: 0 auto 3vh;
+}
+
+.flex-box_1 button{
+  margin: 3vh 0 4vh 2.5vw;
+  height: 6vh;
+  width: 80%;
+  background: hsl(231, 69%, 60%);
+  border: none;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+}
+
+.flex-box_2{
+  border-radius: 15px;
+  box-shadow: 0 6px 10px 0.2px hsla(229, 79%, 78%, 0.524);
+  width: 24%;
+  margin: 10vh 0 30vh 0;
+}
+
+.flex-logo_2{
+  margin: 4vh 7vw;
+  width: 40%;
+}
+
+.flex-box_2 h3{
+  width: fit-content;
+  margin: 1vh auto 3vh;
+}
+
+.flex-box_2 p{
+  width: fit-content;
+  margin: 0 auto 3vh;
+}
+
+.flex-box_2 button{
+  margin: 3vh 0 4vh 2.5vw;
+  height: 6vh;
+  width: 80%;
+  background: hsl(231, 69%, 60%);
+  border: none;
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
 }
