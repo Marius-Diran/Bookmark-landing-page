@@ -343,3 +343,31 @@ body{
   color: hsl(0, 0%, 100%);
   font-weight: bold;
 }
+
+.holder-3{
+  border: 1px solid red;
+}
+
+.holder-3 h1{
+  width: fit-content;
+  margin: 0 auto 4vh;
+}
+
+.p-p{
+  width: 35%;
+  line-height: 150%;
+  text-align: center;
+  color: hsl(229, 8%, 60%);
+  margin: 0 auto 8vh;
+}
+
+.questions{
+  border: 1px solid red;
+  width: 40%;
+}
+
+.arrows{
+  border: 1px solid green;
+  width: fit-content;
+  margin: 0 0 0 40vw;
+}
