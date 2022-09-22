@@ -362,12 +362,35 @@ body{
 }
 
 .questions{
-  border: 1px solid red;
+  border-top: 1px solid hsl(229, 8%, 60%);
   width: 40%;
+  margin: 0 auto;
+  padding: 2vh 0 2vh 3.5vw;
+  position: relative;
 }
 
 .arrows{
-  border: 1px solid green;
   width: fit-content;
-  margin: 0 0 0 40vw;
+  position: absolute;
+  left: 35vw;
+  top: 2.6vh;
+}
+
+.last-question{
+  border-top: 1px solid hsl(229, 8%, 60%);
+  border-bottom: 1px solid hsl(229, 8%, 60%);
+  width: 40%;
+  margin: 0 auto;
+  padding: 2vh 0 2vh 3.5vw;
+  position: relative;
+}
+
+.holder-3 button{
+  width: 7%;
+  height: 6vh;
+  margin: 6vh 45vw;
+  background-color: hsl(231, 69%, 60%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 3px;
 }
