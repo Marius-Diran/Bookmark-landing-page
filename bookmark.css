@@ -36,6 +36,11 @@ body{
   padding: 0 3vh;
 }
 
+.nav-bar ul li:hover{
+  color: hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+
 .nav-btn{
   height: 6vh;
   width: 8%;
@@ -44,6 +49,14 @@ body{
   border-radius: 5px;
   color: hsl(0, 0%, 100%);
   background: hsl(0, 94%, 66%);
+}
+
+.nav-btn:hover{
+  background: hsl(0, 0%, 100%);
+  color: hsl(0, 94%, 66%);
+  border: 2px solid hsl(0, 94%, 66%);
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .holder-1{
@@ -79,6 +92,14 @@ body{
   font-weight: bold;
 }
 
+.chrome-btn:hover{
+  background: hsl(0, 0%, 100%);
+  border: 2px solid hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+  cursor: pointer;
+  font-weight: bold;
+}
+
 .firefox-btn{
   height: 6vh;
   width: 20%;
@@ -86,6 +107,14 @@ body{
   border: none;
   box-shadow: 0 2px 5px 0.1px hsla(0, 0%, 0%, 0.3);
   font-weight: bold;
+}
+
+.firefox-btn:hover{
+  background: hsl(0, 0%, 100%);
+  border: 2px solid hsl(229, 31%, 21%);
+  color: hsl(229, 31%, 21%);
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .mockup-1{
@@ -193,6 +222,10 @@ body{
   font-weight: bold;
 }
 
+.tab-btn:hover{
+  cursor: pointer;
+}
+
 .mover{
   margin-left: 30vw;
 }
@@ -218,6 +251,10 @@ body{
 
 .mytabs input[type="radio"]:checked + label{
   border-bottom: 3px solid red;
+}
+
+.mytabs input[type="radio"] + label:hover{
+  color: hsl(0, 94%, 66%);
 }
 
 .sub-main2{
@@ -278,6 +315,14 @@ body{
   font-weight: bold;
 }
 
+.flex-box_1 button:hover{
+  background: hsl(0, 0%, 100%);
+  border: 2px solid hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .flex-box_2{
   border-radius: 15px;
   box-shadow: 0 6px 10px 0.2px hsla(229, 79%, 78%, 0.524);
@@ -311,6 +356,14 @@ body{
   font-weight: bold;
 }
 
+.flex-box_2 button:hover{
+  background: hsl(0, 0%, 100%);
+  border: 2px solid hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .flex-box_3{
   border-radius: 15px;
   box-shadow: 0 6px 10px 0.2px hsla(229, 79%, 78%, 0.524);
@@ -342,6 +395,14 @@ body{
   border-radius: 5px;
   color: hsl(0, 0%, 100%);
   font-weight: bold;
+}
+
+.flex-box_3 button:hover{
+  background: hsl(0, 0%, 100%);
+  border: 2px solid hsl(231, 69%, 60%);
+  color: hsl(231, 69%, 60%);
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .holder-3 h1{
