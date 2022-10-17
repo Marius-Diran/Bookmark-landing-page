@@ -418,28 +418,108 @@ body{
   margin: 0 auto 8vh;
 }
 
-.questions{
-  border-top: 1px solid hsl(229, 8%, 60%);
-  width: 40%;
-  margin: 0 auto;
-  padding: 2vh 0 2vh 3.5vw;
-  position: relative;
-}
-
 .arrows{
-  width: fit-content;
   position: absolute;
   left: 35vw;
-  top: 2.6vh;
+  top: 2.5vh;
 }
 
-.last-question{
-  border-top: 1px solid hsl(229, 8%, 60%);
-  border-bottom: 1px solid hsl(229, 8%, 60%);
-  width: 40%;
-  margin: 0 auto;
-  padding: 2vh 0 2vh 3.5vw;
+.first-question{
   position: relative;
+  border-top: 1px solid hsla(229, 79%, 78%, 0.524);
+  border-bottom: 1px solid hsla(229, 79%, 78%, 0.524);
+  width: 40%;
+  margin: 2vh auto 0;
+}
+
+.first-question .collapsible{
+  margin: 1vh 0;
+  width: 100%;
+  height: 5vh;
+  text-align: justify;
+  font-size: 1.2rem;
+  background: none;
+  color: hsl(0, 0%, 0%);
+}
+
+.first-question p{
+  margin: 5vh auto 3vh;
+  line-height: 180%;
+  display: none;
+}
+
+.first-question .collapsible:hover{
+  cursor: pointer;
+  color: hsl(0, 94%, 66%);
+}
+
+.second-question{
+  position: relative;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid hsla(229, 79%, 78%, 0.524);
+  width: 40%;
+  margin: 0 auto 0;
+}
+
+.second-question h4{
+  margin: 2vh 0;
+}
+
+.second-question p{
+  margin: 5vh auto 3vh;
+  line-height: 180%;
+  display: none;
+}
+
+.second-question h4:hover{
+  cursor: pointer;
+  color: hsl(0, 94%, 66%);
+}
+
+.third-question{
+  position: relative;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid hsla(229, 79%, 78%, 0.524);
+  width: 40%;
+  margin: 0 auto 0;
+}
+
+.third-question h4{
+  margin: 2vh 0;
+}
+
+.third-question p{
+  margin: 5vh auto 3vh;
+  line-height: 180%;
+  display: none;
+}
+
+.third-question h4:hover{
+  cursor: pointer;
+  color: hsl(0, 94%, 66%);
+}
+
+.fourth-question{
+  position: relative;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid hsla(229, 79%, 78%, 0.524);
+  width: 40%;
+  margin: 0 auto 0;
+}
+
+.fourth-question h4{
+  margin: 2vh 0;
+}
+
+.fourth-question p{
+  margin: 5vh auto 3vh;
+  line-height: 180%;
+  display: none;
+}
+
+.fourth-question h4:hover{
+  cursor: pointer;
+  color: hsl(0, 94%, 66%);
 }
 
 .holder-3 button{
@@ -499,6 +579,13 @@ body{
   font-weight: 600;
 }
 
+.contact-us_btn:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 94%, 66%);
+  border: 2px solid hsl(0, 94%, 66%);
+  cursor: pointer;
+}
+
 .footer{
   background-color: hsl(229, 31%, 21%);
 }
@@ -522,6 +609,11 @@ body{
   padding: 0 0 0 2vw;
   color: hsl(0, 0%, 100%);
   font-size: 0.9rem;
+}
+
+.footer-list ul li:hover{
+  color: hsl(0, 94%, 66%);
+  cursor: pointer;
 }
 
 .footer-icons ul{
