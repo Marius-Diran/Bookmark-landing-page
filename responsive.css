@@ -1,5 +1,58 @@
 @media (max-width: 500px){
-  body{
-    background-color: red;
+  .logo-div{
+    width: 25%;
+  }
+
+  .nav-bar{
+    display: none;
+  }
+
+  .hambuger-menu{
+    display: block;
+    width: 5%;
+    margin: 4.5vh 0 0 50vw;
+  }
+
+  .holder-1{
+    display: block;
+  }
+
+  .mockup-1{
+    display: none;
+  }
+
+  .mockup-1_1{
+    display: block;
+    margin: -6vh auto 6vh;
+    width: 100%;
+  }
+
+  .hero-img1_1{
+    width: 80%;
+    margin: 2vh 0 0 10vw;
+  }
+
+  .blue-bar{
+    height: 40vh;
+    margin: -39vh 0 0 25.1vw;
+  }
+
+  .writeup1{
+    border: 1px solid red;
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .writeup1 h1{
+    width: 60%;
+    margin: 2vh auto 0;
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .writeup1 p{
+    border: 1px solid red;
+    width: 100%;
+    margin: 0;
   }
 }

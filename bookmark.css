@@ -24,7 +24,9 @@ body{
 }
 
 .nav-bar{
-  margin: 5vh 0 0 28vw;
+  margin: 3vh 0 0 28vw;
+  height: fit-content;
+  width: 40%;
 }
 
 .nav-bar ul{
@@ -33,7 +35,7 @@ body{
 }
 
 .nav-bar ul li{
-  padding: 0 3vh;
+  padding: 1.5vh 1.5vw;
 }
 
 .nav-bar ul li:hover{
@@ -43,8 +45,8 @@ body{
 
 .nav-btn{
   height: 6vh;
-  width: 8%;
-  margin: 3.4vh 3vw;
+  width: 100%;
+  margin: 0 3vw;
   border: none;
   border-radius: 5px;
   color: hsl(0, 0%, 100%);
@@ -57,6 +59,17 @@ body{
   border: 2px solid hsl(0, 94%, 66%);
   font-weight: bold;
   cursor: pointer;
+}
+
+.hambuger-menu{
+  width: 2%;
+  height: fit-content;
+  margin: 5vh 0;
+  display: none;
+}
+
+.buger{
+  width: 100%;
 }
 
 .holder-1{
@@ -115,6 +128,10 @@ body{
   color: hsl(229, 31%, 21%);
   font-weight: bold;
   cursor: pointer;
+}
+
+.mockup-1_1{
+  display: none;
 }
 
 .mockup-1{
