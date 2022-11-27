@@ -38,7 +38,7 @@
   }
 
   .writeup1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     width: 95%;
   }
@@ -51,8 +51,26 @@
   }
 
   .writeup1 p{
-    border: 1px solid red;
-    width: 100%;
-    margin: 0;
+    width: 70%;
+    margin: 2vh auto 8vh;
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  .chrome-btn{
+    margin: 0 0 0 15vw;
+    width: 33%;
+    height: 8vh;
+    font-size: 2.8vw;
+    text-align: center;
+  }
+
+  .firefox-btn{
+    margin: 0 0 0 5vw;
+    width: 33%;
+    height: 8vh;
+    font-size: 2.8vw;
+    text-align: center;
+    color: hsl(228, 4%, 53%);
   }
 }
