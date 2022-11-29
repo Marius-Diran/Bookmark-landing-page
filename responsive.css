@@ -73,4 +73,57 @@
     text-align: center;
     color: hsl(228, 4%, 53%);
   }
+
+  .sub-main{
+    margin: 20vh auto 15vh;
+    width: 90%;
+  }
+
+  .sub-main h1{
+    width: 100%;
+    font-size: 6vw;
+  }
+
+  .sub-main p{
+    width: 76%;
+    font-size: 3.2vw;
+  }
+
+  .mytabs{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mytabs label{
+    margin: 0 auto;
+    padding: 3vh 0;
+    width: 80%;
+  }
+
+  /* .mytabs input[type="radio"]:checked + label{
+
+  } */
+
+  .mover{
+    margin: 0;
+    border-top: 1px solid hsl(229, 8%, 60%);
+  }
+
+  .tab{
+    /* border: 1px solid red; */
+    margin: 15vh auto;
+  }
+
+  .mockup-tab{
+    width: 85%;
+    margin: 3vh auto;
+  }
+
+  .tab-bar{
+    width: 95%;
+  }
+
+  .slide-1{
+    display: block;
+  }
 }
