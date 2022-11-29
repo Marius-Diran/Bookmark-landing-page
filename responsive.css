@@ -38,7 +38,6 @@
   }
 
   .writeup1{
-    /* border: 1px solid red; */
     margin: 0 auto;
     width: 95%;
   }
@@ -100,17 +99,12 @@
     width: 80%;
   }
 
-  /* .mytabs input[type="radio"]:checked + label{
-
-  } */
-
   .mover{
     margin: 0;
     border-top: 1px solid hsl(229, 8%, 60%);
   }
 
   .tab{
-    /* border: 1px solid red; */
     margin: 15vh auto;
   }
 
@@ -123,7 +117,38 @@
     width: 95%;
   }
 
+  .writeup-tab{
+    /* border: 1px solid gold; */
+    margin: 13vh auto 0;
+    width: 100%;
+  }
+
+  .writeup-tab h1{
+    font-size: 6vw;
+    width: 100%;
+    margin: 6vh auto 4vh;
+    text-align: center;
+  }
+
+  .writeup-tab p{
+    width: 67%;
+    margin: 0 auto;
+    color: hsl(228, 4%, 53%);
+  }
+
+  .tab-btn{
+    display: none;
+  }
+
   .slide-1{
+    display: block;
+  }
+
+  .slide-2{
+    display: block;
+  }
+
+  .slide-3{
     display: block;
   }
 }
