@@ -118,7 +118,6 @@
   }
 
   .writeup-tab{
-    /* border: 1px solid gold; */
     margin: 13vh auto 0;
     width: 100%;
   }
@@ -150,5 +149,17 @@
 
   .slide-3{
     display: block;
+  }
+
+  .sub-main2 h1{
+    width: 100%;
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .sub-main2 p{
+    width: 65%;
+    text-align: center;
+    font-size: 3vw;
   }
 }
