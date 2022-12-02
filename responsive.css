@@ -271,7 +271,33 @@
     margin: 0 auto 8vh;
   }
 
+  .arrows{
+    left: 70vw;
+  }
+
   .first-question{
     border-top: none;
+    width: 85%;
+    margin: 15vh auto 0;
+  }
+
+  .first-question .collapsible{
+    margin: 3vh 0;
+    font-size: 4vw;
+  }
+
+  .second-question{
+    width: 85%;
+    margin: 5vh auto 0;
+  }
+
+  .third-question{
+    width: 85%;
+    margin: 5vh auto 0;
+  }
+
+  .fourth-question{
+    width: 85%;
+    margin: 5vh auto 0;
   }
 }
