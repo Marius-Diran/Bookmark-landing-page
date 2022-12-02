@@ -272,7 +272,8 @@
   }
 
   .arrows{
-    left: 70vw;
+    left: 80vw;
+    top: 4.4vh;
   }
 
   .first-question{
@@ -288,16 +289,36 @@
 
   .second-question{
     width: 85%;
-    margin: 5vh auto 0;
+    margin: 2vh auto 0;
+  }
+
+  .second-question .collapsible{
+    margin: 3vh 0;
+    font-size: 4vw;
   }
 
   .third-question{
     width: 85%;
-    margin: 5vh auto 0;
+    margin: 2vh auto 0;
+  }
+
+  .third-question .collapsible{
+    margin: 3vh 0;
+    font-size: 4vw;
   }
 
   .fourth-question{
     width: 85%;
-    margin: 5vh auto 0;
+    margin: 2vh auto 0;
+  }
+
+  .fourth-question .collapsible{
+    margin: 3vh 0;
+    font-size: 4vw;
+  }
+
+  .collapes-content{
+    width: 100%;
+    font-size: 3.5vw;
   }
 }
