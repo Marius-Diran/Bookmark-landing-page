@@ -270,4 +270,8 @@
     width: 70%;
     margin: 0 auto 8vh;
   }
+
+  .first-question{
+    border-top: none;
+  }
 }
