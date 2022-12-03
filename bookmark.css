@@ -608,6 +608,10 @@ body{
   cursor: pointer;
 }
 
+.divider{
+  display: none;
+}
+
 .footer{
   background-color: hsl(229, 31%, 21%);
 }
