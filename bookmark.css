@@ -547,7 +547,7 @@ body{
 .holder-3 button{
   width: 7%;
   height: 7vh;
-  margin: 6vh 45vw;
+  margin: 6vh 0 0 45vw;
   background-color: hsl(231, 69%, 60%);
   color: hsl(0, 0%, 100%);
   border: none;
