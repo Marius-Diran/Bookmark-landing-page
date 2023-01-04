@@ -10,13 +10,23 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
+.container{
+  width: 95%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+nav{
+  margin: 4vh 0;
+}
+
 .nav-div{
   display: flex;
 }
 
 .logo-div{
   width: 10%;
-  margin: 5vh 7vw;
+  margin: auto 2vw;
 }
 
 .logo{
@@ -24,7 +34,7 @@ body{
 }
 
 .nav-bar{
-  margin: 3vh 0 0 28vw;
+  margin: auto 0 auto 38vw;
   height: fit-content;
   width: 40%;
 }
@@ -68,7 +78,7 @@ body{
   display: none;
 }
 
-.buger{
+.toggle-btn{
   width: 100%;
 }
 
