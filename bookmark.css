@@ -8,6 +8,7 @@
 
 body{
   font-family: 'Rubik', sans-serif;
+  /* background:hsl(0, 0%, 0%); */
 }
 
 .container{
@@ -71,6 +72,20 @@ nav{
   cursor: pointer;
 }
 
+.nav-icon-1{
+  display: none;
+  position: relative;
+  top: 10vh;
+  left: 40vw;
+}
+
+.nav-icon-2{
+  display: none;
+  position: relative;
+  top: 6.1vh;
+  left: 58vw
+}
+
 .hambuger-menu{
   width: 2%;
   height: fit-content;
@@ -79,6 +94,16 @@ nav{
 }
 
 .toggle-btn{
+  width: 100%;
+}
+
+.close{
+  width: 2%;
+  height: fit-content;
+  display: none;
+}
+
+.close-btn{
   width: 100%;
 }
 
