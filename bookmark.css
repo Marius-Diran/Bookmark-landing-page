@@ -40,6 +40,18 @@ nav{
   width: 40%;
 }
 
+.nav-logo{
+  width: 10%;
+  position: absolute;
+  display: none;
+  top: 4vh;
+  
+}
+
+.logo-nav{
+  width: 100%;
+}
+
 .nav-bar ul{
   display: flex;
   list-style: none;

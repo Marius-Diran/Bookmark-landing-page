@@ -21,6 +21,14 @@
     transition: transform 350ms ease-out;
   }
 
+  .nav-logo{
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    top: 38vh;
+    left: 8vw;
+  }
+
   .nav-bar ul{
     display: block;
     text-align: center;
