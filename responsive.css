@@ -74,6 +74,8 @@
 
   .nav-icon-2{
     display: block;
+    position: relative;
+    top: 6vh;
   }
 
   .hambuger-menu{
