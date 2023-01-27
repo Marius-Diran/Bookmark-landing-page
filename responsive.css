@@ -24,8 +24,8 @@
   .nav-logo{
     width: 30%;
     display: inline-block;
-    position: absolute;
-    top: 38vh;
+    position: relative;
+    top: 42vh;
     left: 8vw;
   }
 
