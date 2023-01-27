@@ -38,6 +38,7 @@ nav{
   margin: auto 0 auto 38vw;
   height: fit-content;
   width: 40%;
+  position: relative;
 }
 
 .nav-logo{
@@ -86,16 +87,16 @@ nav{
 
 .nav-icon-1{
   display: none;
-  position: relative;
+  /* position: absolute;
   top: 10vh;
-  left: 40vw;
+  left: 40vw; */
 }
 
 .nav-icon-2{
   display: none;
-  position: relative;
+  /* position: absolute;
   top: 6.1vh;
-  left: 58vw
+  left: 58vw */
 }
 
 .hambuger-menu{
