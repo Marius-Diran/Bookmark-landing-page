@@ -8,13 +8,11 @@
 
 body{
   font-family: 'Rubik', sans-serif;
-  /* background:hsl(0, 0%, 0%); */
 }
 
 .container{
   width: 95%;
   margin: auto;
-  /* border: 1px solid red; */
 }
 
 nav{
@@ -85,16 +83,10 @@ nav{
 
 .nav-icon-1{
   display: none;
-  /* position: absolute;
-  top: 10vh;
-  left: 40vw; */
 }
 
 .nav-icon-2{
   display: none;
-  /* position: absolute;
-  top: 6.1vh;
-  left: 58vw */
 }
 
 .hambuger-menu{
@@ -508,6 +500,7 @@ nav{
   font-size: 1.2rem;
   background: none;
   color: hsl(0, 0%, 0%);
+  transition: transform 350ms ease-out;
 }
 
 .first-question .collapsible:hover{
