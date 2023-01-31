@@ -500,7 +500,6 @@ nav{
   font-size: 1.2rem;
   background: none;
   color: hsl(0, 0%, 0%);
-  transition: transform 350ms ease-out;
 }
 
 .first-question .collapsible:hover{
